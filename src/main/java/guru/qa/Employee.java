@@ -2,7 +2,7 @@ package guru.qa;
 
 import static java.lang.Math.rint;
 
-public class Person {
+public class Employee {
     private int age; // указывается в годах
     private int operating_time; // время работы, указывается в месяцах
     private String name;
@@ -10,7 +10,7 @@ public class Person {
     private double dayVacation = 14;
 
 
-    public Person(int age, String name, int operating_time, String position) {
+    public Employee (int age, String name, int operating_time, String position) {
         this.age = age;
         this.name = name;
         this.operating_time = operating_time;
