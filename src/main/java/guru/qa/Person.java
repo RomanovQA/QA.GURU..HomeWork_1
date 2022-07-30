@@ -3,11 +3,11 @@ package guru.qa;
 import static java.lang.Math.rint;
 
 public class Person {
-    int age; // указывается в годах
-    int operating_time; // время работы, указывается в месяцах
-    String name;
-    String position; // Должность работника
-    double dayVacation = 14;
+    private int age; // указывается в годах
+    private int operating_time; // время работы, указывается в месяцах
+    private String name;
+    private String position; // Должность работника
+    private double dayVacation = 14;
 
 
     public Person(int age, String name, int operating_time, String position) {
