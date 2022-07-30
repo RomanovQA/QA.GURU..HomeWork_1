@@ -1,6 +1,6 @@
 package guru.qa;
 
-public class Not_first_class {
+public class Second {
     public static void main(String[] args) {
         Employee Junior = new Employee(28, "Ivan", 5, "junior QA automation engineer");
         Junior.goToVacation();
